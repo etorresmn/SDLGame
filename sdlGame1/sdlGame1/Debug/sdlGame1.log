@@ -1,0 +1,54 @@
+﻿  ConfigProperties.cpp
+  Game.cpp
+D:\Programs(x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(230,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Programs(x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\memory(1563): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int&,int&,float&,float&>(_Ty &,int &,int &,float &,float &) noexcept(false)' being compiled
+          with
+          [
+              _Ty=CShape
+          ]
+D:\Programs(x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\memory(2207): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<int&,int&,float&,float&>(int &,int &,float &,float &)' being compiled
+          with
+          [
+              _Ty=CShape
+          ]
+D:\Programs(x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\memory(2208): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<int&,int&,float&,float&>(int &,int &,float &,float &)' being compiled
+          with
+          [
+              _Ty=CShape
+          ]
+D:\Documentos\Visual Studio 2019\sdlGame1\sdlGame1\Game.cpp(30): message : see reference to function template instantiation 'std::shared_ptr<CShape> std::make_shared<CShape,int&,int&,float&,float&>(int &,int &,float &,float &)' being compiled
+D:\Programs(x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(230,33): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+D:\Programs(x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\memory(1563): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,float&,float&,float&,float&,double,double>(_Ty &,float &,float &,float &,float &,double &&,double &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=CTransform
+          ]
+D:\Programs(x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\memory(2207): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<float&,float&,float&,float&,double,double>(float &,float &,float &,float &,double &&,double &&)' being compiled
+          with
+          [
+              _Ty=CTransform
+          ]
+D:\Programs(x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\memory(2208): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<float&,float&,float&,float&,double,double>(float &,float &,float &,float &,double &&,double &&)' being compiled
+          with
+          [
+              _Ty=CTransform
+          ]
+D:\Documentos\Visual Studio 2019\sdlGame1\sdlGame1\Game.cpp(32): message : see reference to function template instantiation 'std::shared_ptr<CTransform> std::make_shared<CTransform,float&,float&,float&,float&,double,double>(float &,float &,float &,float &,double &&,double &&)' being compiled
+  GameObject.cpp
+  GameObjectManager.cpp
+  main.cpp
+  SDL_cpp.cpp
+D:\Documentos\Visual Studio 2019\sdlGame1\sdlGame1\SDL_cpp.cpp(416,20): warning C4018: '<': signed/unsigned mismatch
+D:\Documentos\Visual Studio 2019\sdlGame1\sdlGame1\SDL_cpp.cpp(556,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Documentos\Visual Studio 2019\sdlGame1\sdlGame1\SDL_cpp.cpp(557,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Documentos\Visual Studio 2019\sdlGame1\sdlGame1\SDL_cpp.cpp(766,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Documentos\Visual Studio 2019\sdlGame1\sdlGame1\SDL_cpp.cpp(797,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Documentos\Visual Studio 2019\sdlGame1\sdlGame1\SDL_cpp.cpp(829,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Documentos\Visual Studio 2019\sdlGame1\sdlGame1\SDL_cpp.cpp(964,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Documentos\Visual Studio 2019\sdlGame1\sdlGame1\SDL_cpp.cpp(965,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  sdlGame1.vcxproj -> D:\Documentos\Visual Studio 2019\sdlGame1\Debug\sdlGame1.exe
